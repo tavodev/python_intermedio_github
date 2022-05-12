@@ -21,3 +21,7 @@
 #from saludos_sarai  import saludos as sadulo_2
 #
 #saludo_1
+
+from carpetas import crear_carpetas
+
+crear_carpetas("prueba_carpeta", 3)
