@@ -10,3 +10,11 @@ except ValueError as ex:
 except Exception as ex:
     print("Hubo una excepcion => ", ex)
 
+
+# solicitar un numero, si no es numero manejar excepcion
+while True:
+     try:
+         x = int(input("Please enter a number: "))
+         break
+     except ValueError:
+         print("Oops!  That was no valid number.  Try again...")
