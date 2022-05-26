@@ -7,3 +7,6 @@ cur = conn.cursor()
 
 cur.execute("SELECT * FROM usuarios;")
 print(cur.fetchone())
+
+cur.close()
+conn.close()
