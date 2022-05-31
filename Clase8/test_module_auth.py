@@ -1,4 +1,3 @@
-import imp
 from auth.login import is_authenticated
 import os
 os.system('cls')
