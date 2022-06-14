@@ -1,5 +1,3 @@
-
-
 class MyPostgreSQLConn:
     def __init__(self, bd, user, password, host='127.0.0.1'):
         self.bd = bd
@@ -18,15 +16,11 @@ class MyPostgreSQLConn:
         print("Ejecutando en la bd")
         print(query)
 
-
-
-
 connection = MyPostgreSQLConn("python_intermedio_bd", "postgres", "root")
 
 connection.connect()
 
 connection.execute("SELECT * FROM usuarios;")
-
 
 lista_ids = [15,20, 30] # estos se borraran
 
